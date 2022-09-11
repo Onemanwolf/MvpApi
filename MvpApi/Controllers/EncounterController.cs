@@ -7,7 +7,7 @@ namespace MvpApi.Controllers;
 [Route("[controller]")]
 public class EncounterController : ControllerBase
 {
-   
+
 
     private readonly ILogger<EncounterController> _logger;
 
@@ -16,7 +16,7 @@ public class EncounterController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet(Name = "GetEncounter/{id}")]
+    [HttpGet(Name = "Encounter/{id}")]
     public ActionResult<List<Encounter>> Get(string id)
     {
       var encounters =  FhirService.GetEncounter(id);
