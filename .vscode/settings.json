@@ -1,0 +1,5 @@
+{
+  "appService.preDeployTask": "publish-release",
+  "appService.deploySubpath": "MvpApi\\bin\\Release\\net6.0\\publish",
+  "appService.defaultWebAppToDeploy": "/subscriptions/99288749-a993-4c4a-b6b7-7f7f6b7aa46e/microsoft.web/sites/subscriptions/99288749-a993-4c4a-b6b7-7f7f6b7aa46e/resourceGroups/appsvc_windows_centralus_basic/providers/Microsoft.Web/sites/MvpDataSyncApi"
+}
